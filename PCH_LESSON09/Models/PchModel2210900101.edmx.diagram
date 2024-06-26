@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ce01fcc214c64a1684da4fec5ba42822" Name="Diagram1">
+        <EntityTypeShape EntityType="UniversityModel.Ketqua" Width="1.5" PointX="7.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.Khoa" Width="1.5" PointX="1.625" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.MonHoc" Width="1.5" PointX="10.875" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.SinhVien" Width="1.5" PointX="4.875" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="UniversityModel.FK__Ketqua__MaMH__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__Ketqua__MaSV__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__SinhVien__MaKH__3B75D760" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
